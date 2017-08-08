@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- 视图窗口，移动端特属的标签。 -->
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+        <!-- 是否启动webapp功能，会删除默认的苹果工具栏和菜单栏。 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- 这个主要是根据实际的页面设计的主体色为搭配来进行设置。 -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <!-- 避免IE使用兼容模式 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+        <meta name="HandheldFriendly" content="true">
+        <!-- 微软的老式浏览器 -->
+        <meta name="MobileOptimized" content="320">
+        <!-- uc强制竖屏 -->
+        <meta name="screen-orientation" content="portrait">
+        <!-- QQ强制竖屏 -->
+        <meta name="x5-orientation" content="portrait">
+        <!-- UC强制全屏 -->
+        <meta name="full-screen" content="yes">
+        <!-- QQ强制全屏 -->
+        <meta name="x5-fullscreen" content="true">
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application">
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app">
+        <!-- windows phone 点击无高光 -->
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="keywords" content="螺湾船说" />
+        <meta name="description" content="螺湾船说" />
+        <title>螺湾船说</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!--[if  lte ie 9]>
+           <script src="js/html5shiv.min.js" type="text/javascript"></script>
+           <script src="js/respond.min.js" type="text/javascript"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- 导航 -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="cur"><a href="#">首页</a></li>
+                        <li><a href="#">菜单</a></li>
+                        <li><a href="#">环境</a></li>
+                        <li><a href="#">招聘</a></li>
+                        <li><a href="#">联系我们</a></li>
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!-- banner图 -->
+        <div class="banner">
+            <img src="images/banner.jpg" alt="">
+        </div>
+        <!-- 菜品菜单 -->
+        <section class="sec menu container">
+            <!-- 标题 -->
+            <div class="title">
+                <h2><img src="images/title_01.jpg" alt=""></h2>
+            </div>
+            <!-- 菜品图片 -->
+            <ul class="row">
+                <li class="col-md-3 col-sm-6 col-xs-12 ani" data-move-x="-500px" data-rotate="90deg">
+                    <span><img src="images/type_01.jpg" alt=""></span>
+                    <div class="zoom">
+                        <div class="zoomtex">
+                            <p>凉 菜</p>
+                            <em>LIANG CAI</em>
+                        </div>
+                        <div class="zoomtex">
+                            <p>凉 菜</p>
+                            <em>LIANG CAI</em>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-3 col-sm-6 col-xs-12 ani" data-move-y="200px" data-move-x="-200px" data-rotate="45deg">
+                    <span><img src="images/type_02.jpg" alt=""></span>
+                    <div class="zoom">
+                        <div class="zoomtex">
+                            <p>炒 菜</p>
+                            <em>CHAO CAI</em>
+                        </div>
+                        <div class="zoomtex">
+                            <p>炒 菜</p>
+                            <em>CHAO CAI</em>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-3 col-sm-6 col-xs-12 ani" data-move-y="200px" data-move-x="200px" data-rotate="-45deg">
+                    <span><img src="images/type_03.jpg" alt=""></span>
+                    <div class="zoom">
+                        <div class="zoomtex">
+                            <p>烧 烤</p>
+                            <em>SHAO KAO</em>
+                        </div>
+                        <div class="zoomtex">
+                            <p>烧 烤</p>
+                            <em>SHAO KAO</em>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-3 col-sm-6 col-xs-12 ani" data-move-x="500px" data-rotate="-90deg">
+                    <span><img src="images/type_04.jpg" alt=""></span>
+                    <div class="zoom">
+                        <div class="zoomtex">
+                            <p>鱼 酷</p>
+                            <em>YU KU</em>
+                        </div>
+                        <div class="zoomtex">
+                            <p>鱼 酷</p>
+                            <em>YU KU</em>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- 菜单列表 -->
+            <div class="row menu_list">
+                <div class="col-md-6 ani" data-move-x="-1000px">
+                    <ul>
+                        <li>
+                            <div class="text1">信阳焖罐肉</div>
+                            <div class="text2"></div>
+                            <div class="text3">￥68</div>
+                        </li>
+                        <li>
+                            <div class="text1">信阳焖罐肉</div>
+                            <div class="text2"></div>
+                            <div class="text3">￥68</div>
+                        </li>
+                        <li>
+                            <div class="text1">信阳焖罐肉</div>
+                            <div class="text2"></div>
+                            <div class="text3">￥68</div>
+                        </li>
+                        <li>
+                            <div class="text1">信阳焖罐肉</div>
+                            <div class="text2"></div>
+                            <div class="text3">￥68</div>
+                        </li>
+                        <li>
+                            <div class="text1">信阳焖罐肉</div>
+                            <div class="text2"></div>
+                            <div class="text3">￥68</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 ani" data-move-x="1000px">
+                    <ul>
+                        <li>
+                            <div class="text1">信阳焖罐肉</div>
+                            <div class="text2"></div>
+                            <div class="text3">￥68</div>
+                        </li>
+                        <li>
+                            <div class="text1">信阳焖罐肉</div>
+                            <div class="text2"></div>
+                            <div class="text3">￥68</div>
+                        </li>
+                        <li>
+                            <div class="text1">信阳焖罐肉</div>
+                            <div class="text2"></div>
+                            <div class="text3">￥68</div>
+                        </li>
+                        <li>
+                            <div class="text1">信阳焖罐肉</div>
+                            <div class="text2"></div>
+                            <div class="text3">￥68</div>
+                        </li>
+                        <li>
+                            <div class="text1">信阳焖罐肉</div>
+                            <div class="text2"></div>
+                            <div class="text3">￥68</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 更多 -->
+            <div class="more_less ani" data-rotate-x="90deg" data-move-z="-500px" data-move-y="200px">
+                <div class="more">更多</div>
+                <div class="less">更少</div>
+            </div>
+        </section>
+        <!-- 包间环境 -->
+        <section class="sec room">
+            <!-- 标题 -->
+            <div class="title ani" data-move-x="500px">
+                <h2><img src="images/title_02.jpg" alt=""></h2>
+            </div>
+            <div class="container">
+                <ul>
+                    <li ><img src="images/room_01.png" alt=""></li>
+                    <li >
+                        <span><img src="images/room_02.png" alt="" /></span>
+                        <span><img src="images/room_03.png" alt="" /></span>
+                    </li>
+                    <li ><img src="images/room_04.png" alt=""></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 加入我们 -->
+        <section class="sec join">
+            <!-- 标题 -->
+            <div class="title ani" data-move-x="-500px">
+                <h2><img src="images/title_03.jpg" alt=""></h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 left ani" data-rotate-y="1080deg" data-move-x="-150%">
+                        <ul class="row">
+                            <li class="col-md-12">
+                                <h4>收银员</h4>
+                                <p>要求：您可以不漂亮，可以不专业，可以笨笨的可爱，但要勤快​‌‌要善良，要相信生活相信爱，不管您在哪里，螺湾船说愿意等您一起创造螺湾传说！！！</p>
+                            </li>
+                            <li class="col-md-12">
+                                <h4>服务员</h4>
+                                <p>要求：年龄:18到26岁，男女不限​‌‌，机灵活泼，能吃苦耐劳，团队意识强，有无经验均可！</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="col-md-1"></div> -->
+                    <div class="col-md-4 col-md-offset-2 hidden-xs hidden-sm ani" data-rotate-y="1080deg" data-move-x="150%">
+                        <img src="images/pin.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 联系我们 -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-5 item time ani" data-scale="0.2" data-skew="-90deg,-90deg">
+                        <h3>营业时间</h3>
+                        <p><img src="images/noon.png" alt="">中午 10.00-14.00</p>
+                        <p><img src="images/night.png" alt="">晚上 17.00-22.00</p>
+                    </div>
+                    <div class="col-md-7 col-sm-7 item contact ani" data-scale="0.2" data-skew="90deg,90deg">
+                        <h3>联系我们</h3>
+                        <p><img src="images/tel.png" alt="">0395-33213333</p>
+                        <p><img src="images/addr.png" alt="">嵩山路与汉江路交叉口向东500米河堤口路南</p>
+                    </div>
+                </div>
+                <div class="copyright ani" data-move-x="-2000px" data-offset="0">版权信息：漯河市金樽餐饮有限公司版权所有</div>
+            </div>
+        </footer>
+    </body>
+</html>
+<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.smoove.js"></script>
+<script type="text/javascript">$('.ani').smoove({offset:'20%'});</script>
+<script type="text/javascript" src="js/index.js"></script>
