@@ -1,10 +1,12 @@
-/* 
-* @Author: Marte
-* @Date:   2017-05-11 11:12:05
-* @Last Modified by:   Marte
-* @Last Modified time: 2017-05-11 11:12:08
-*/
 
-$(document).ready(function(){
-    
+$(function(){
+
+    $(".more").bind('click', function() {
+        $(".hidd").stop(true).slideDown(500);
+    });
+
+    $(".less").bind('click', function() {
+        $(".hidd").stop(true).slideUp(500);
+    });
+
 });
